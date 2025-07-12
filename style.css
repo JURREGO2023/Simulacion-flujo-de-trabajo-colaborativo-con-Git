@@ -1,0 +1,29 @@
+body {       
+ 
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;    
+    color: red;
+    
+}
+
+h2 {
+    margin: 20px 0; /* Espaciado vertical */
+    color: red;
+}
+p {
+    margin: 20px auto;
+    max-width: 800px; /* Opcional: limita el ancho del párrafo */
+}
+
+
+
