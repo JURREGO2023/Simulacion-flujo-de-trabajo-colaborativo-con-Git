@@ -44,4 +44,86 @@ footer {
     border-radius: 10px;
     }
 
+       /* Un poco de CSS para que el botón se vea mejor */
 
+        #miBoton {
+
+            padding: 10px 20px;
+
+            font-size: 18px;
+
+            cursor: pointer;
+
+            border: none;
+
+            border-radius: 5px;
+
+            background-color: #007bff; /* Color inicial azul */
+
+            color: white;
+
+            transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+
+        }
+
+
+
+        #miBoton:hover {
+
+            opacity: 0.9;
+
+        }
+
+
+
+        button {
+
+    background-color: #4CAF50; /* Un verde vibrante */
+
+    color: white; /* Texto blanco */
+
+    padding: 10px 20px; /* Espaciado interno */
+
+    border: none; /* Sin borde */
+
+    border-radius: 5px; /* Esquinas redondeadas */
+
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+
+    font-size: 16px; /* Tamaño de fuente */
+
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+
+    margin-top: 10px; /* Espacio superior para separarlos del contenido */
+
+}
+
+
+
+button:hover {
+
+    background-color: #45a049; /* Un verde un poco más oscuro al pasar el ratón */
+
+}
+
+
+
+button:active {
+
+    background-color: #3e8e41; /* Un verde aún más oscuro al hacer clic */
+
+}
+
+
+
+
+
+.ejemplo-js {
+
+    margin-top: 35px; /* Espacio superior para separar cada ejemplo */
+
+    padding-bottom: 25px; /* Espacio en la parte inferior de cada ejemplo */
+
+    border-bottom: 1px dashed #ddd; /* Una línea punteada para separar visualmente */
+
+    padding-top: 5px; /* Pequeño padding superior para que la línea no esté pegada al cont
